@@ -31,33 +31,6 @@ Fitur Utama Aplikasi
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
-Struktur Folder 
-text
-danabijak/
-├── src/
-│   ├── app/
-│   │   ├── api/
-│   │   │   ├── login/
-│   │   │   │   └── route.js        API Handler Autentikasi
-│   │   │   ├── kategori/
-│   │   │   │   ├── [id]/
-│   │   │   │   │   └── route.js    API Dinamis Kategori (PUT/DELETE)
-│   │   │   │   └── route.js        API Utama Kategori (GET/POST)
-│   │   │   └── transaksi/
-│   │   │       ├── [id]/
-│   │   │       │   └── route.js    API Dinamis Transaksi (PUT/DELETE)
-│   │   │       └── route.js        API Utama Transaksi (GET/POST)
-│   │   ├── globals.css             Pengaturan Tailwind CSS
-│   │   └── page.js                 Komponen Antarmuka Utama (Dashboard)
-│   └── lib/
-│       └── db.js                   Driver Koneksi Database MySQL
-├── .next/                          Folder Cache Kompilasi
-├── package.json                    Dependensi & Skrip Node.js
-└── README.md                       Dokumentasi Proyek UAS
-
-
--------------------------------------------------------------------------------------------------------------------------------------------------
-
 CARA MENJALANKAN PROYEK (RUN TUTORIAL)
 
 Langkah 1: Persiapan Kontrol Database (MySQL Via Query Script)
